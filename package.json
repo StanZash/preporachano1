@@ -1,26 +1,13 @@
 {
-  "name": "package",
-  "description": "description",
-  "authors": "author",
-  "version": "1.0.0",
-  "main": "pathToMain",
-  "scripts": {
-    "start": "node index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/StanZash/preporachano1"
-  },
-  "author": "Stan",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "handlebars": "^4.1.1",
-    "jquery": "^3.3.1",
-    "sammy": "^0.7.6"
-  },
-  "devDependencies": {},
-  "keywords": [
-    "y"
-  ]
+    "name": "name",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "handlebars": "^4.1.1",
+        "jquery": "^3.3.1",
+        "sammy": "^0.7.6"
+    }
 }
