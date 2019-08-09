@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "main": "pathToMain",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.html"
   },
   "repository": {
     "type": "git",
