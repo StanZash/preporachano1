@@ -1,0 +1,41 @@
+{{>header}} 
+     <div id="notifications">
+            <div id="successBox" class="alert alert-success"  role="alert">{Success Message...}</div>
+            <div id="loadingBox" class="alert alert-info" role="alert">Loading...</div>
+            <div id="errorBox" class="alert alert-danger" role="alert">{Error Message...}</div>
+            
+        </div>
+ <form class="text-center p-5 form-layout" action="#/edit" method="POST" id="edit-receipt-form">
+            <p class="h4 mb-4">Edit Recipe</p>
+        
+            <input type="text" id="defaultRecepieEditMeal" name="meal" class="form-control mb-4" placeholder=""
+                value="">
+        
+            <input type="text" id="defaultRecepieEditIngredients" name="ingredients" class="form-control mb-4"
+                placeholder="" value="">
+        
+            <textarea type="text" id="defaultRecepieEditMethodOfPreparation" name="prepMethod" class="form-control mb-4"
+                placeholder=""></textarea>
+        
+            <textarea type="text" id="defaultRecepieEditDescription" name="description" class="form-control mb-4"
+                placeholder=""></textarea>
+        
+            <input type="text" id="defaultRecepieEditFoodImageURL" name="foodImageURL" class="form-control mb-4"
+                placeholder="" value="">
+        
+            <select id = 'opt' name="category" select="">
+                <option selected>Select category...</option>
+                <option>Vegetables and legumes/beans</option>
+                <option>Fruits</option>
+                <option>Grain Food</option>
+                <option>Milk, cheese, eggs and alternatives</option>
+                <option>Lean meats and poultry, fish and alternatives</option>
+            </select>
+            <button class="btn btn-danger w-25 m-auto my-4 btn-block" type="submit">Edit it</button>
+        
+        </form>
+          <script>
+             window.onload = handler.option()
+        </script>
+        {{>footer}}
+       
